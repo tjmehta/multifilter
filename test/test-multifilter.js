@@ -25,8 +25,14 @@ describe('multifilter', function () {
         strings: isString
       }
       expect(multifilter(obj, filters)).to.deep.equal({
-        numbers: { a: 1, c: 3 },
-        strings: { b:'2', d:'4'}
+        numbers: {
+          a: 1,
+          c: 3
+        },
+        strings: {
+          b: '2',
+          d: '4'
+        }
       })
       done()
     })
@@ -42,8 +48,14 @@ describe('multifilter', function () {
         isString
       ]
       expect(multifilter(obj, filters)).to.deep.equal([
-        { a: 1, c: 3 },
-        { b:'2', d:'4'}
+        {
+          a: 1,
+          c: 3
+        },
+        {
+          b: '2',
+          d: '4'
+        }
       ])
       done()
     })
@@ -98,8 +110,14 @@ describe('multifilter', function () {
         expect(out)
           .to.equal(init)
         expect(out).to.deep.equal({
-          numbers: { a: 1, c: 3 },
-          strings: { b:'2', d:'4'}
+          numbers: {
+            a: 1,
+            c: 3
+          },
+          strings: {
+            b: '2',
+            d: '4'
+          }
         })
         done()
       })
@@ -125,8 +143,14 @@ describe('multifilter', function () {
         strings: isString
       }
       expect(reduce(obj, multifilter(filters))).to.deep.equal({
-        numbers: { a: 1, c: 3 },
-        strings: { b:'2', d:'4'}
+        numbers: {
+          a: 1,
+          c: 3
+        },
+        strings: {
+          b: '2',
+          d: '4'
+        }
       })
       done()
     })
@@ -142,8 +166,14 @@ describe('multifilter', function () {
         isString
       ]
       expect(reduce(obj, multifilter(filters))).to.deep.equal([
-        { a: 1, c: 3 },
-        { b:'2', d:'4'}
+        {
+          a: 1,
+          c: 3
+        },
+        {
+          b: '2',
+          d: '4'
+        }
       ])
       done()
     })
@@ -198,8 +228,14 @@ describe('multifilter', function () {
         expect(out)
           .to.equal(init)
         expect(out).to.deep.equal({
-          numbers: { a: 1, c: 3 },
-          strings: { b:'2', d:'4'}
+          numbers: {
+            a: 1,
+            c: 3
+          },
+          strings: {
+            b: '2',
+            d: '4'
+          }
         })
         done()
       })

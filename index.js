@@ -40,10 +40,11 @@ function multifilterReduce (filters) {
     }
     forEach(filters, function (filter, filterKey) {
       if (filter(item)) {
-        if (objIsArray)
+        if (objIsArray) {
           memo[filterKey].push(item)
-        else
+        } else {
           memo[filterKey][key] = item
+        }
       }
     })
     return memo
