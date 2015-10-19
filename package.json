@@ -4,7 +4,7 @@
   "description": "split an array ( or object) into multiple using filters",
   "main": "index.js",
   "scripts": {
-    "test": "lab --threshold 100 --assert code --verbose",
+    "test": "npm run lint && lab --threshold 100 --assert code --verbose",
     "test-watch": "nodemon -x npm test",
     "lint": "standard",
     "format": "standard-format -w"
