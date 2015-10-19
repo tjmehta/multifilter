@@ -1,4 +1,4 @@
-# multifilter
+# multifilter [![Build Status](https://travis-ci.org/tjmehta/multifilter.svg)](https://travis-ci.org/tjmehta/multifilter)
 Split an array into multiple arrays using filters
 
 # Installation
