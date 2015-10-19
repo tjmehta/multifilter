@@ -1,4 +1,4 @@
-# multifilter [![Build Status](https://travis-ci.org/tjmehta/multifilter.svg)](https://travis-ci.org/tjmehta/multifilter)
+# multifilter [![Build Status](https://travis-ci.org/tjmehta/multifilter.svg)](https://travis-ci.org/tjmehta/multifilter) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 Split an array into multiple arrays using filters
 
 # Installation
