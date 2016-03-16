@@ -9,7 +9,7 @@ Split an array into multiple arrays using filters
 
 Filter arrays to multiple arrays:
 ```js
-var multifilter = require('multiline')
+var multifilter = require('multifilter')
 var arr = [
   1,
   '2',
@@ -40,7 +40,7 @@ out = multifilter(arr, {
 
 Filter objects to multiple objects:
 ```js
-var multifilter = require('multiline')
+var multifilter = require('multifilter')
 var obj = {
   a: 1,
   b: '2',
@@ -64,7 +64,7 @@ out = multifilter(obj, {
 
 You can, optionally, output arrays:
 ```js
-var multifilter = require('multiline')
+var multifilter = require('multifilter')
 var arr = [
   1,
   '2',
@@ -93,7 +93,7 @@ out = multifilter(arr, [
 */
 
 // and w/ objects
-var multifilter = require('multiline')
+var multifilter = require('multifilter')
 var obj = {
   a: 1,
   b: '2',
